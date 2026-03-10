@@ -475,8 +475,8 @@
         isValid = false;
       }
 
-      if (numberOfGuests < 1 || numberOfGuests > 20) {
-        document.getElementById('guestsError').textContent = 'Between 1 and 20 guests';
+      if (numberOfGuests < 0 || numberOfGuests > 50) {
+        document.getElementById('guestsError').textContent = 'Between 0 and 50 guests';
         isValid = false;
       }
 
